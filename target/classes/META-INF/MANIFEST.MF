@@ -1,0 +1,85 @@
+Manifest-Version: 1.0
+Implementation-Title: InvestmentStrategies
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: shant
+Implementation-Vendor-Id: InvestmentStrategies
+Class-Path: spring-boot-starter-web-1.5.9.RELEASE.jar spring-boot-star
+ ter-1.5.9.RELEASE.jar spring-boot-1.5.9.RELEASE.jar spring-boot-autoc
+ onfigure-1.5.9.RELEASE.jar spring-boot-starter-logging-1.5.9.RELEASE.
+ jar snakeyaml-1.17.jar spring-boot-starter-tomcat-1.5.9.RELEASE.jar t
+ omcat-embed-core-8.5.23.jar tomcat-annotations-api-8.5.23.jar tomcat-
+ embed-el-8.5.23.jar tomcat-embed-websocket-8.5.23.jar hibernate-valid
+ ator-5.3.6.Final.jar validation-api-1.1.0.Final.jar jboss-logging-3.3
+ .1.Final.jar classmate-1.3.4.jar jackson-databind-2.8.10.jar jackson-
+ annotations-2.8.0.jar jackson-core-2.8.10.jar spring-web-4.3.13.RELEA
+ SE.jar spring-aop-4.3.13.RELEASE.jar spring-beans-4.3.13.RELEASE.jar 
+ spring-context-4.3.13.RELEASE.jar spring-webmvc-4.3.13.RELEASE.jar sp
+ ring-expression-4.3.13.RELEASE.jar objenesis-2.1.jar spring-core-4.3.
+ 13.RELEASE.jar spark-core_2.12-3.0.0-preview.jar paranamer-2.8.jar av
+ ro-1.8.2.jar xz-1.5.jar avro-mapred-1.8.2-hadoop2.jar avro-ipc-1.8.2.
+ jar chill_2.12-0.9.3.jar kryo-shaded-4.0.2.jar minlog-1.3.0.jar chill
+ -java-0.9.3.jar xbean-asm7-shaded-4.14.jar hadoop-client-2.7.4.jar ha
+ doop-hdfs-2.7.4.jar xercesImpl-2.9.1.jar xml-apis-1.4.01.jar hadoop-m
+ apreduce-client-app-2.7.4.jar hadoop-mapreduce-client-common-2.7.4.ja
+ r hadoop-yarn-client-2.7.4.jar hadoop-yarn-server-common-2.7.4.jar ha
+ doop-mapreduce-client-shuffle-2.7.4.jar hadoop-yarn-api-2.7.4.jar had
+ oop-mapreduce-client-core-2.7.4.jar hadoop-yarn-common-2.7.4.jar hado
+ op-mapreduce-client-jobclient-2.7.4.jar spark-launcher_2.12-3.0.0-pre
+ view.jar spark-kvstore_2.12-3.0.0-preview.jar leveldbjni-all-1.8.jar 
+ spark-network-common_2.12-3.0.0-preview.jar spark-network-shuffle_2.1
+ 2-3.0.0-preview.jar spark-unsafe_2.12-3.0.0-preview.jar activation-1.
+ 1.1.jar curator-recipes-2.7.1.jar curator-framework-2.7.1.jar zookeep
+ er-3.4.14.jar audience-annotations-0.5.0.jar javax.servlet-api-3.1.0.
+ jar commons-lang3-3.8.1.jar commons-math3-3.4.1.jar commons-text-1.6.
+ jar jsr305-3.0.0.jar jul-to-slf4j-1.7.25.jar jcl-over-slf4j-1.7.25.ja
+ r compress-lzf-1.0.3.jar snappy-java-1.1.7.3.jar lz4-java-1.6.0.jar z
+ std-jni-1.4.3-1.jar RoaringBitmap-0.7.45.jar shims-0.7.45.jar commons
+ -net-3.1.jar scala-xml_2.12-1.2.0.jar scala-library-2.12.10.jar scala
+ -reflect-2.12.10.jar json4s-jackson_2.12-3.6.6.jar json4s-core_2.12-3
+ .6.6.jar json4s-ast_2.12-3.6.6.jar json4s-scalap_2.12-3.6.6.jar jerse
+ y-client-2.25.1.jar javax.ws.rs-api-2.0.1.jar hk2-api-2.5.0-b32.jar h
+ k2-utils-2.5.0-b32.jar aopalliance-repackaged-2.5.0-b32.jar javax.inj
+ ect-2.5.0-b32.jar hk2-locator-2.5.0-b32.jar javassist-3.21.0-GA.jar j
+ ersey-common-2.25.1.jar javax.annotation-api-1.2.jar jersey-guava-2.2
+ 5.1.jar osgi-resource-locator-1.0.1.jar jersey-server-2.25.1.jar jers
+ ey-media-jaxb-2.25.1.jar jersey-container-servlet-2.25.1.jar jersey-c
+ ontainer-servlet-core-2.25.1.jar jersey-hk2-2.29.jar netty-all-4.1.42
+ .Final.jar stream-2.9.6.jar metrics-core-3.1.5.jar metrics-jvm-3.1.5.
+ jar metrics-json-3.1.5.jar metrics-graphite-3.1.5.jar jackson-module-
+ scala_2.12-2.8.10.jar jackson-module-paranamer-2.8.10.jar ivy-2.4.0.j
+ ar oro-2.0.8.jar pyrolite-4.30.jar py4j-0.10.8.1.jar spark-tags_2.12-
+ 3.0.0-preview.jar commons-crypto-1.0.0.jar unused-1.0.0.jar spark-sql
+ _2.12-3.0.0-preview.jar univocity-parsers-2.8.3.jar spark-sketch_2.12
+ -3.0.0-preview.jar spark-catalyst_2.12-3.0.0-preview.jar scala-parser
+ -combinators_2.12-1.1.2.jar janino-2.7.8.jar antlr4-runtime-4.7.1.jar
+  arrow-vector-0.12.0.jar arrow-format-0.12.0.jar arrow-memory-0.12.0.
+ jar joda-time-2.9.9.jar hppc-0.7.2.jar flatbuffers-java-1.9.0.jar orc
+ -core-1.5.7-nohive.jar orc-shims-1.5.7.jar aircompressor-0.10.jar orc
+ -mapreduce-1.5.7-nohive.jar parquet-column-1.10.1.jar parquet-common-
+ 1.10.1.jar parquet-encoding-1.10.1.jar parquet-hadoop-1.10.1.jar parq
+ uet-format-2.4.0.jar parquet-jackson-1.10.1.jar commons-compiler-2.7.
+ 8.jar gson-2.2.2.jar log4j-over-slf4j-1.7.25.jar slf4j-api-1.7.5.jar 
+ slf4j-simple-1.6.4.jar hadoop-common-2.7.0.jar hadoop-annotations-2.7
+ .0.jar guava-11.0.2.jar commons-cli-1.2.jar xmlenc-0.52.jar commons-h
+ ttpclient-3.1.jar commons-codec-1.10.jar commons-io-2.4.jar commons-c
+ ollections-3.2.2.jar servlet-api-2.5.jar jetty-6.1.26.jar jetty-util-
+ 6.1.26.jar jsp-api-2.1.jar jersey-core-1.9.jar jersey-json-1.9.jar je
+ ttison-1.1.jar jaxb-impl-2.2.3-1.jar jaxb-api-2.2.2.jar stax-api-1.0-
+ 2.jar jackson-jaxrs-1.8.3.jar jackson-xc-1.8.3.jar jersey-server-1.9.
+ jar asm-3.1.jar commons-logging-1.1.3.jar log4j-1.2.17.jar jets3t-0.9
+ .0.jar httpclient-4.5.3.jar httpcore-4.4.8.jar java-xmlbuilder-0.4.ja
+ r commons-lang-2.6.jar commons-configuration-1.6.jar commons-digester
+ -2.1.jar commons-beanutils-1.9.3.jar commons-beanutils-core-1.8.0.jar
+  slf4j-log4j12-1.7.25.jar jackson-core-asl-1.9.13.jar jackson-mapper-
+ asl-1.9.13.jar protobuf-java-2.5.0.jar hadoop-auth-2.7.0.jar apacheds
+ -kerberos-codec-2.0.0-M15.jar apacheds-i18n-2.0.0-M15.jar api-asn1-ap
+ i-1.0.0-M20.jar api-util-1.0.0-M20.jar jsch-0.1.42.jar curator-client
+ -2.7.1.jar htrace-core-3.1.0-incubating.jar commons-compress-1.4.1.ja
+ r jsoup-1.8.3.jar
+Build-Jdk: 1.8.0_231
+Implementation-URL: http://projects.spring.io/spring-boot/InvestmentSt
+ rategies/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: com.spark.test.Main
+
