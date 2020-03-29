@@ -19,6 +19,6 @@ public class EtfController {
 	@CrossOrigin
 	@RequestMapping("test")
     public ResponseEntity<String> words() throws IOException {
-        return new ResponseEntity<String>(main.main(), HttpStatus.OK);
+        return new ResponseEntity<String>(main.main(0, 50), HttpStatus.OK);
     }
 }

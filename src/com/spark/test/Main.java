@@ -39,12 +39,12 @@ public class Main {
 	 * 
 	 * @Autowired private SparkSession sparkSession;
 	 */	
-	public String main() throws IOException {
+	public String main(int start, int end) throws IOException {
 		
 		SparkConf conf = new SparkConf().set("spark.master", "local[*]");
 		SparkSession spark = SparkSession.builder().config(conf).appName("PrimeApp").getOrCreate();
 		
-		List<String> rawData = readData().subList(0, 50);
+		List<String> rawData = readData().subList(start, end);
 		
 		List<Row> dataR = new ArrayList<>();
 		for(String st : rawData) {
@@ -93,7 +93,7 @@ public class Main {
 
 	//For reading from local file system
 	public List<String> readData() throws IOException { 
-	    String file = "C:\\Users\\shant\\OneDrive\\Desktop\\Ticker.csv";
+	    String file = "./Ticker.csv";
 	    List<String> content = new ArrayList<>();
 	    try(BufferedReader br = new BufferedReader(new FileReader(file))) {
 	        String line = "";
